@@ -172,7 +172,7 @@ a:not([href]):not([tabindex]) {
 
 .btn:focus {
     box-shadow: none;
-    color: #FFF;
+   /* color: #666;*/
     outline: none;
 }
 

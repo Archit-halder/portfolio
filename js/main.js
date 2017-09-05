@@ -76,13 +76,13 @@
 	});
 
 	//Video background
-	$(".player").mb_YTPlayer({
-	    containment: '#video-wrapper',
-	    mute: true,
-	    showControls: false,
-	    quality: 'default',
-	    startAt: 5
-	});
+	// $(".player").mb_YTPlayer({
+	//     containment: '#video-wrapper',
+	//     mute: true,
+	//     showControls: false,
+	//     quality: 'default',
+	//     startAt: 5
+	// });
 
 	//Portfolio Modal
 	// $('.open-project').on('click', function() {
@@ -95,14 +95,14 @@
 	// });
 
 	//Blog post Modal
-	$('.open-post').on('click', function() {
-	    var postUrl = $(this).attr("href");
-	    $('.inline-menu-container').removeClass('showx');
-	    $('.sidebar-menu').addClass('hidex');
-	    $('.content-blocks.pop').addClass('showx');
-	    $('.content-blocks.pop section').load(postUrl);
-	    return false;
-	});
+	// $('.open-post').on('click', function() {
+	//     var postUrl = $(this).attr("href");
+	//     $('.inline-menu-container').removeClass('showx');
+	//     $('.sidebar-menu').addClass('hidex');
+	//     $('.content-blocks.pop').addClass('showx');
+	//     $('.content-blocks.pop section').load(postUrl);
+	//     return false;
+	// });
 
 	//On Click Open Menu Items
 	$('.menu-block, .menu-item').on('click', function() {
@@ -178,10 +178,10 @@
 	    // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
 	    var mapOptions = {
 	        // How zoomed in you want the map to start at (always required)
-	        zoom: 11,
-
+	        zoom: 15,
+ 
 	        // The latitude and longitude to center the map (always required)
-	        center: new google.maps.LatLng(40.6700, -73.9400), 
+	        center: new google.maps.LatLng(28.7157, 77.1351), 
 
 	        scrollwheel: false,
 
